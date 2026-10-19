@@ -30,3 +30,38 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+.hero-doctor-image {
+  display: block;
+  position: relative;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  /* Gambar punya ruang transparan di kiri; pusat konten terlihat ada di 64.1%. */
+  transform: translateX(-64.1%);
+}
+
+/* Tablet: mulai dari 768px */
+@media (min-width: 768px) {
+  .hero-doctor-image {
+    width: 85%;
+    max-width: 48rem;
+  }
+}
+
+/* Notebook: mulai dari 1024px */
+@media (min-width: 1024px) {
+  .hero-doctor-image {
+    width: 150%;
+    max-width: none;
+    margin-top: -4rem;
+  }
+}
+
+/* Laptop: mulai dari 1440px */
+@media (min-width: 1440px) {
+  .hero-doctor-image {
+    width: 150%;
+  }
+}

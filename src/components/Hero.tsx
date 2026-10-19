@@ -11,19 +11,22 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-slate-100 to-indigo-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.1]">
               Solusi Digital Terintegrasi Untuk{" "}
-              <span className="gradient-text-brand">Klinik, Apotek &amp; Praktik Dokter</span>
+              <span className="gradient-text-brand">
+                Klinik, Apotek &amp; Praktik Dokter
+              </span>
             </h1>
 
             <p className="mt-6 text-base sm:text-lg text-slate-600 leading-relaxed">
-              Solusi unggulan kami: Sistem Manajemen Klinik, Apotek, dan Praktik Dokter Mandiri
-              yang sepenuhnya terpisah. Anda hanya perlu membayar fitur yang benar-benar
-              digunakan, tanpa bundling yang tidak perlu. Data medis dan demografi pasien
-              terintegrasi untuk klinik jaringan dapat digunakan di seluruh cabang. Wujudkan
-              operasional yang lebih rapi, akurat, dan efisien bersama Medistrax!{" "}
+              Solusi unggulan kami: Sistem Manajemen Klinik, Apotek, dan Praktik
+              Dokter Mandiri yang sepenuhnya terpisah. Anda hanya perlu membayar
+              fitur yang benar-benar digunakan, tanpa bundling yang tidak perlu.
+              Data medis dan demografi pasien terintegrasi untuk klinik jaringan
+              dapat digunakan di seluruh cabang. Wujudkan operasional yang lebih
+              rapi, akurat, dan efisien bersama Medistrax!{" "}
               <strong className="font-semibold text-slate-900">
                 Mulai dari Rp 400.000/bulan
               </strong>{" "}
@@ -49,7 +52,9 @@ export default function Hero() {
               {stats.map((s) => (
                 <div key={s.label}>
                   <dt className="sr-only">{s.label}</dt>
-                  <dd className="text-2xl sm:text-3xl font-extrabold text-indigo-600">{s.value}</dd>
+                  <dd className="text-2xl sm:text-3xl font-extrabold text-indigo-600">
+                    {s.value}
+                  </dd>
                   <div className="mt-1 text-sm text-slate-500">{s.label}</div>
                 </div>
               ))}
@@ -62,7 +67,7 @@ export default function Hero() {
               alt="Tenaga medis menggunakan Medistrax"
               width={900}
               height={900}
-              className="w-full h-auto object-contain"
+              className="hero-doctor-image"
               priority
             />
           </div>

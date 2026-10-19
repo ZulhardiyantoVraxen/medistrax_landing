@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between">
           <a href="#beranda" className="flex items-center shrink-0">
             <Image
-              src="/img/logo_mdx_icon.png"
+              src="/img/logo_mdx.png"
               alt="Medistrax"
               width={135}
               height={134}
