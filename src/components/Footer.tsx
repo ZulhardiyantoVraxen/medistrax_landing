@@ -25,12 +25,12 @@ export default function Footer() {
 
             <div className="mt-8 space-y-6 text-sm">
               <div>
-                <div className="font-semibold text-slate-800">📞 Telepon</div>
-                <div className="mt-1 text-slate-500">+62 21 5098 1234</div>
+                <div className="font-semibold text-slate-800">📞 Telepon«</div>
+                <div className="mt-1 text-slate-500">+62 877 3030 6433</div>
               </div>
               <div>
                 <div className="font-semibold text-slate-800">✉️ Email</div>
-                <div className="mt-1 text-slate-500">info@medistrax.com</div>
+                <div className="mt-1 text-slate-500">zulhardiyanto@vraxen-group.com</div>
               </div>
               <div>
                 <div className="font-semibold text-slate-800">📍 Equity Tower</div>
